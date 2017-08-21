@@ -1,2 +1,4 @@
+.eslintignore
+.eslintrc.json
 rollup.config.js
 test/
