@@ -1,22 +1,23 @@
 import babel from 'rollup-plugin-babel'
-import butternut from 'rollup-plugin-butternut'
+// import butternut from 'rollup-plugin-butternut'
 
 const pkg = require('./package.json')
 
-const isTest = process.env.TEST
+// const isTest = process.env.TEST
 
 export default {
   input: './lib/index.js',
+  banner: '#!/usr/bin/env node',
   plugins: [
     babel({
       exclude: 'node_modules/**'
     }),
-    !isTest && butternut(),
+    // !isTest && butternut(),
   ],
   output: [
     {
       file: pkg.main,
-      format: 'umd',
+      format: 'cjs',
       name: pkg.name,
       sourcemap: true,
     },

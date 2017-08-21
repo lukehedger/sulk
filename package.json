@@ -5,6 +5,7 @@
   "main": "dist/sulk.js",
   "module": "dist/sulk.mjs",
   "jsnext:main": "dist/sulk.mjs",
+  "bin": "dist/sulk.js",
   "directories": {
     "doc": "doc",
     "example": "example",
