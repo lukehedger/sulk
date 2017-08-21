@@ -1,0 +1,7 @@
+{
+  "extends": "jaak",
+  "globals": {
+    "RPC": false,
+    "VERSION": false
+  }
+}

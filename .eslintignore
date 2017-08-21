@@ -1,0 +1,5 @@
+config/**/*.js
+dist/**/*.js
+example/**/*.js
+scripts/**/*.js
+test/**/*.js
