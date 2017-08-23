@@ -8,9 +8,10 @@ const pkg = require('./package.json')
 export default {
   input: './lib/index.js',
   banner: '#!/usr/bin/env node',
+  external: ['chalk', 'fs-extra', 'path', 'solc', 'yargs'],
   plugins: [
     babel({
-      exclude: 'node_modules/**'
+      exclude: 'node_modules/**',
     }),
     // !isTest && butternut(),
   ],
