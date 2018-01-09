@@ -15,17 +15,15 @@ module.exports = {
    * contracts
    *
    * The contract files to be compiled
-   *
+   * 
    * @type {Array}
    */
-  contracts: [
-    'Echo',
-  ],
+  contracts: ['Echo'],
 
   /**
    * inputPath
    *
-   * Directory to read target contracts from
+   * Directory to read target contracts from   
    *
    * @type {String}
    */
@@ -50,5 +48,5 @@ module.exports = {
    * @default `inputPath`
    * @type {String}
    */
-  outputPath: path.join(__dirname, '../contracts'),
+  outputPath: path.join(__dirname, '../compiled-contracts'),
 }
