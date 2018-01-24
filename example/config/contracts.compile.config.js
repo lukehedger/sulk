@@ -15,7 +15,7 @@ module.exports = {
    * contracts
    *
    * The contract files to be compiled
-   * 
+   *
    * @type {Array}
    */
   contracts: ['Echo'],
@@ -23,7 +23,7 @@ module.exports = {
   /**
    * inputPath
    *
-   * Directory to read target contracts from   
+   * Directory to read target contracts from
    *
    * @type {String}
    */
