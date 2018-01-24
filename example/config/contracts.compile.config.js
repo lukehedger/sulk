@@ -18,7 +18,7 @@ module.exports = {
    *
    * @type {Array}
    */
-  contracts: ['Echo', 'example-solidity-module/ExampleModule'],
+  contracts: ['Echo', 'zeppelin-solidity/contracts/ownership/Ownable'],
 
   /**
    * inputPath
