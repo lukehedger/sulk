@@ -45,6 +45,7 @@
     "build": "rollup -c",
     "build:test": "rollup -c --environment TEST",
     "pretest": "npm run build:test",
+    "release": "npm run build && np --yolo --tag=latest",
     "test": "node ./dist/sulk.js --config ./example/config/contracts.compile.config.js"
   },
   "devDependencies": {
