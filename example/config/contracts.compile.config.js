@@ -18,9 +18,7 @@ module.exports = {
    *
    * @type {Array}
    */
-  contracts: [
-    'Echo',
-  ],
+  contracts: ['Echo', 'example-solidity-module/ExampleModule'],
 
   /**
    * inputPath
@@ -50,5 +48,5 @@ module.exports = {
    * @default `inputPath`
    * @type {String}
    */
-  outputPath: path.join(__dirname, '../contracts'),
+  outputPath: path.join(__dirname, '../compiled-contracts'),
 }

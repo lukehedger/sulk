@@ -1,0 +1,57 @@
+{
+  "Echo": {
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_value",
+            "type": "uint256"
+          }
+        ],
+        "name": "echo",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "echoValue",
+            "type": "uint256"
+          }
+        ],
+        "name": "Echoed",
+        "type": "event"
+      }
+    ],
+    "bytecode": "60606040523415600e57600080fd5b60cd8061001c6000396000f300606060405260043610603e5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636279e43c81146043575b600080fd5b3415604d57600080fd5b60566004356068565b60405190815260200160405180910390f35b60007f7740d944f29211a54f3984583c3a7b6cca32e2256b3a2d4a72b05c3216f96bd38260405190815260200160405180910390a150905600a165627a7a723058209e8d66921bc9dda22aeb761e39fbefc4f8b33e28aa6cda2c43d099e6b884e04c0029"
+  },
+  "ExampleModule": {
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "foo",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "pure",
+        "type": "function"
+      }
+    ],
+    "bytecode": "60606040523415600e57600080fd5b60988061001c6000396000f300606060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663c298557881146043575b600080fd5b3415604d57600080fd5b60536067565b604051901515815260200160405180910390f35b6001905600a165627a7a723058207ea41c774f91f14e6611e3a7cb5c65f0c6e858c919a8038561e7c4ff4b54cbae0029"
+  }
+}
