@@ -1,6 +1,6 @@
 {
   "name": "sulk",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Solidity compilation without the tears",
   "main": "dist/sulk.js",
   "module": "dist/sulk.mjs",
