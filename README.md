@@ -3,29 +3,31 @@
 </p>
 
 ## Install
-```
+```sh
 npm install --save-dev sulk
 ```
 
 ## Usage
-```
+```sh
 sulk --config ./relative.path.to.config.js
 ```
+
+[Read the documentation](/doc).
 
 ## Contributing
 
 ### Setup
-```
+```sh
 npm install
 ```
 
 ### Build
-```
+```sh
 npm run build
 ```
 
 ### Test
-```
+```sh
 npm test
 ```
 
