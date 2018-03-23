@@ -46,7 +46,7 @@
     "build:test": "rollup -c --environment TEST",
     "pretest": "npm run build:test",
     "release": "npm run build && np --yolo --tag=latest",
-    "test": "node ./dist/sulk.js --config ./example/config/contracts.compile.config.js"
+    "test": "node ./dist/sulk.js --config ./example/config/sulk.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
